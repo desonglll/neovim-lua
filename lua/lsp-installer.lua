@@ -83,11 +83,13 @@ local function on_attach(client, bufnr)
 end
 
 lspconfig.sumneko_lua.setup {
+  autostart = false,
   on_attach = on_attach
 }
 
 -- vim.opt.runtimepath:append("$HOME/.config/nvim/sources/lsp-server/html")
 lspconfig.html.setup{
+  autostart = false,
   on_attach=on_attach,
   -- cmd = {
   --   -- "~/.config/nvim/sources/lsp-server/html",
@@ -97,10 +99,16 @@ lspconfig.html.setup{
 }
 
 lspconfig.pyright.setup{
+  autostart = false,
   on_attach = on_attach,
 }
 
 lspconfig.jdtls.setup{
+  autostart = false,
   on_attach = on_attach,
 }
 
+lspconfig.clangd.setup{
+  autostart = false,
+  on_attach = on_attach,
+}
