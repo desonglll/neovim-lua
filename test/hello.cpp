@@ -9,5 +9,4 @@ int main (int argc, char *argv[])
 
 int print(int x){
 
-  String a = "hello";
 }
