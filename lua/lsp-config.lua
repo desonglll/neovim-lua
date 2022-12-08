@@ -1,0 +1,28 @@
+--
+-- -- vim.opt.runtimepath:append("$HOME/.config/nvim/sources/lsp-server/sumneko_lua/extension/server/bin")
+--
+-- -- for require pyright. After `npm i -g pyright`
+-- require('lspconfig')['pyright'].setup{
+-- }
+--
+-- -- for require jdtls...
+-- -- Official download page: http://download.eclipse.org/jdtls/snapshots/?d
+-- require('lspconfig')['jdtls'].setup{
+--   on_attach = on_attach,
+--   cmd = {
+--     "jdtls",
+--     -- path to jdt-language-server-latest bin directory.
+--     '$HOME/.config/nvim/sources/jdtls/jdt-language-server-latest/bin',
+--     "~/.config/nvim/sources/jdtls/jdt-language-server-latest/bin",
+--   },
+--   single_file_support = true,
+-- }
+--
+-- require('lspconfig')['clangd'].setup{}
+--
+-- require('lspconfig')['sumneko_lua'].setup{
+--   cmd = {
+--     '$HOME/.config/nvim/sources/lsp-server/sumneko_lua/extension/server/bin',
+--     '~/.config/nvim/sources/lsp-server/sumneko_lua/extension/server/bin',
+--   }
+-- }
