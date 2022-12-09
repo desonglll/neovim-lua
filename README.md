@@ -169,3 +169,13 @@ example, `cs'"` means "change the surrounding single quotes to double quotes".
 ```shell
 cd /Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/vim-prettier.git && yarn install
 ```
+
+### :star:Autoformat
+
+First, install `pynvim`.
+
+```shell
+python3 -m pip install pynvim
+```
+
+
