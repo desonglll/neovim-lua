@@ -23,6 +23,11 @@ local mappings = {
     g = { '<cmd>lua require("telescope.builtin").live_grep({no_ignore=false,hidden=true})<cr>', "Find Text" },
   },
 
+  p = {
+    name = "Formatter...",
+    ["p"] = {"<cmd>Prettier<CR>", "Prettier"},
+    ["a"] = {"<cmd>Autoformat<CR>", "AutoFormat"},
+  },
   ["/"] = {
     name = "Easymotion",
     ["/"] = {"<Plug>(easymotion-sn)", "Easymotion SN"},
@@ -35,7 +40,7 @@ local mappings = {
     },
   },
 
--- Terminal
+  -- Terminal
   t = {
     name = "Terminal",
     ["t"] = {
