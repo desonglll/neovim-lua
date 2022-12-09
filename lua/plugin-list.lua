@@ -4,12 +4,18 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   use 'git@github.com:wbthomason/packer.nvim'
 
+  use 'git@github.com:vim-autoformat/vim-autoformat'
   -- Vim Spector
   -- Debugger
   -- use 'git@github.com:puremourning/vimspector'
 
   -- Autopairs
   use 'git@github.com:windwp/nvim-autopairs.git'
+
+  -- Prettier
+  use {
+    'git@github.com:prettier/vim-prettier.git',
+  }
 
   -- Nerdtree. https://github.com/preservim/nerdtree
   use 'git@github.com:preservim/nerdtree.git'
