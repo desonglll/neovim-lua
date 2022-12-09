@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "git@github.com:hrsh7th/nvim-cmp"
   },
+  ["nvim-lsp-installer.git"] = {
+    loaded = true,
+    path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer.git",
+    url = "git@github.com:williamboman/nvim-lsp-installer"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -200,6 +205,11 @@ _G.packer_plugins = {
     path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "git@github.com:vim-airline/vim-airline-themes"
   },
+  ["vim-autoformat"] = {
+    loaded = true,
+    path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/vim-autoformat",
+    url = "git@github.com:vim-autoformat/vim-autoformat"
+  },
   ["vim-devicons.git"] = {
     loaded = true,
     path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/vim-devicons.git",
@@ -219,6 +229,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/vim-markdown.git",
     url = "git@github.com:preservim/vim-markdown"
+  },
+  ["vim-prettier.git"] = {
+    loaded = true,
+    path = "/Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/vim-prettier.git",
+    url = "git@github.com:prettier/vim-prettier"
   },
   ["vim-vsnip"] = {
     loaded = true,
