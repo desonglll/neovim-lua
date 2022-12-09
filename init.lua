@@ -15,6 +15,8 @@ require ('p-toggleterm')
 require ('p-airline')
 require ('p-vim-markdown')
 
+-- Autoformat
+require ('p-autoformat')
 -- Autopairs
 require ('p-autopairs')
 -- Nerdtree
