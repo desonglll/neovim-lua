@@ -21,6 +21,7 @@ discription:
   - [p-vsnip](#p-vsnip)
   - [:star:Markdown Preview Enhanced](#starmarkdown-preview-enhanced)
   - [nvim-surround(YSW)](#nvim-surroundysw)
+  - [:star:Preitter](#starpreitter)
 
 ## **Github** repository link
 
@@ -161,4 +162,10 @@ example, `cs'"` means "change the surrounding single quotes to double quotes".
     `some text*`                cs`}            {some text}
 
 --------------------------------------------------------------------------------
+```
+
+### :star:Preitter
+
+```shell
+cd /Users/mikeshinoda/.local/share/nvim/site/pack/packer/start/vim-prettier.git && yarn install
 ```
